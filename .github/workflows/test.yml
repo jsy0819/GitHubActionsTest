@@ -3,7 +3,7 @@ name: testFromEclipse
 on: [push]
 
 jobs:
-	greet:
+	greet: 
 		runs-on: ubuntu-latest
 		steps:
 			- name: 하이용
