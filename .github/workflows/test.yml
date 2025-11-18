@@ -3,8 +3,8 @@ name: testFromEclipse
 on: [push]
 
 jobs:
-	greet: 
-		runs-on: ubuntu-latest
-		steps:
-			- name: 하이용
-			  run: echo "ci/cdTest"
+    greet: 
+        runs-on: ubuntu-latest
+        steps:
+            - name: 하이용
+              run: echo "ci/cdTest"
